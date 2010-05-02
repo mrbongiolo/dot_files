@@ -1,1 +1,10 @@
 Those are some of mine dot files.
+
+To install on ubuntu:
+
+* Copy all the files from ubuntu folder to your home
+* sudo apt-get install ncurses-term
+
+To install on windows:
+
+* Copy all the files from windows folder to your home
