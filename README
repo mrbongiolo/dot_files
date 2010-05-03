@@ -33,3 +33,31 @@ rake
 rack
 sqlite3-ruby
 heroku
+
+====
+Configure Multiple GIT Accounts on same Computer
+
+Add the config file into ~/.ssh folder
+
+Add this to your config file:
+
+# Default GitHub user (DefaulUser)
+Host github.com
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+ 
+# Other user (OtherUser)
+Host github-other_user_name
+  HostName github.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_other_user_name
+
+Then add the 2nd key to your ssh keys by doing:
+
+ssh-add ~/.ssh/id_rsa_other_user_name
+
+*If you get error like "Could not authenticate agent." do this:
+Open a git bash
+exec ssh-agent bash
+then use the ssh-add command
