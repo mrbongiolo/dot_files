@@ -21,6 +21,10 @@
 
 ## GEMS TO INSTALL
 
+Add other gem sources
+
+    gem source -a http://gems.github.com
+
 use --no-ri --no-rdoc if you don't want to install the current gem DOCS.
 
 * hirb
@@ -28,6 +32,7 @@ use --no-ri --no-rdoc if you don't want to install the current gem DOCS.
 * rack
 * sqlite3-ruby
 * heroku
+* jamis-fuzzy_file_finder
 
 ## Configure Multiple GITHUB Accounts on same Computer
 
