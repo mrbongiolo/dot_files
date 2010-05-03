@@ -35,9 +35,13 @@ sqlite3-ruby
 heroku
 
 ====
-Configure Multiple GIT Accounts on same Computer
+Configure Multiple GITHUB Accounts on same Computer
 
-Add the config file into ~/.ssh folder
+You may use different OS accounts, so each account have link to one GITHUB account
+
+If you can't or don't want to use multiple OS accounts then you need to do this:
+
+Add a config file into ~/.ssh folder
 
 Add this to your config file:
 
