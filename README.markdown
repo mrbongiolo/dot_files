@@ -11,10 +11,6 @@
 
 * Copy all the files from windows folder to your home
 
-## TODO
-
-get .files from Opa's notebook.
-
 ## SETUP DEVELOPMENT ENVIRONMENT
 
 * install git
@@ -64,3 +60,9 @@ Then add the 2nd key to your ssh keys by doing:
 * Open a git bash
 * exec ssh-agent bash
 * then use the ssh-add command
+
+## TODO
+
+get .files from Opa's notebook.
+
+
