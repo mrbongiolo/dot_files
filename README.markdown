@@ -1,6 +1,6 @@
-# Dot Files
+# Dot Files - PontoFiles
 
-> Those are some of mine dot files.
+> Those are some of mine dot files and configuration steps.
 
 ### To Ubuntu:
 
@@ -61,6 +61,6 @@ Then add the 2nd key to your ssh keys by doing:
 
 #### If you get error like "Could not authenticate agent." do this:
 
-> Open a git bash
-> exec ssh-agent bash
-> then use the ssh-add command
+* Open a git bash
+* exec ssh-agent bash
+* then use the ssh-add command
