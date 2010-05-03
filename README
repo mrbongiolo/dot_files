@@ -1,17 +1,35 @@
 Those are some of mine dot files.
 
-To install on ubuntu:
+To Ubuntu:
 
 * Copy all the files from ubuntu folder to your home
-* sudo apt-get install ncurses-term
+* sudo apt-get install ncurses-term (this will recognize de gnome-256color)
 
-To install on windows:
+To Windows:
 
 * Copy all the files from windows folder to your home
 
 ====
 TODO
 
-Get .files from pc at work.
-
 get .files from Opa's notebook.
+
+====
+SETUP DEVELOPMENT ENVIRONMENT
+
+After git is properly installed
+install ruby (at windows use 1 click installer, at ubuntu use package manager)
+install rubygems (at ubuntu don't use package manager, get the source and install)
+install rails
+install other desired gems
+
+====
+GEMS TO INSTALL
+
+use --no-ri --no-rdoc if you don't want to install the current gem DOCS.
+
+hirb
+rake
+rack
+sqlite3-ruby
+heroku
