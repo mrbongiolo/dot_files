@@ -68,6 +68,4 @@ Then add the 2nd key to your ssh keys by doing:
 
 ## TODO
 
-get .files from Opa's notebook.
-
-
+* Verify if the dot files here are up to date. (probably some stuff should be updated)
