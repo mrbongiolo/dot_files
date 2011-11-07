@@ -1,0 +1,42 @@
+#Windows Toolbox
+
+##CMD INIT
+
+###Installation
+
+Run the 'toolbox_install.bat' script and it will add this folder to your PATH and the 
+'cmd_init.cmd' file to the correct registry entry, so that the command prompt loads it
+at every startup.
+
+OR
+
++ Add this folder to your PATH
+
++ Create a STRING key called "AutoRun" at
+  HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor
+  with the value "C:\path\to\cmd_init.cmd".
+
+###Usage
+
+Edit the cmd_init.cmd file and add any alias methods that you would like to have into your CMD.
+  
+  
+## talias
+
+### Usage
+
+On the Windows Command Prompt:
+
+    talias [name of the alias] = [commands executed by the alias]
+
+Sample:
+
+    talias rd = rmdir $*
+
+
+Other Information
+-----------------
+
+Sources used to make this:
+
++ http://devblog.point2.com/2010/05/14/setup-persistent-aliases-macros-in-windows-command-prompt-cmd-exe-using-doskey/
